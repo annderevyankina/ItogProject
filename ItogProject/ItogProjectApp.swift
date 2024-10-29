@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct ItogProjectApp: App {
+    @StateObject private var settingsViewModel = SettingsViewModel()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreenView()
         }
     }
 }
