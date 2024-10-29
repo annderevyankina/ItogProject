@@ -10,7 +10,7 @@ import SwiftUI
 struct LandingView: View {
     var body: some View {
         ZStack {
-            Color("backgroundColor") // Background color
+            Color("backgroundColor")
                 .ignoresSafeArea()
             
             ScrollView {
@@ -240,7 +240,7 @@ struct LandingView: View {
                 .padding()
                 
                 ZStack {
-                    Color("accentColor") // Фон на уровне всего экрана
+                    Color("accentColor") 
                         .ignoresSafeArea()
                     VStack {
                         Image("efix")
